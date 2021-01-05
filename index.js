@@ -2,7 +2,7 @@ const Slimbot = require('slimbot')
 const axios = require('axios')
 const slimbot = new Slimbot('1574487194:AAF5T42sktBawteGG-Y1V1DjJuh2YqVfntM')
 
-setInterval(function(){
+//setInterval(function(){
 
 let imageData = ""
 let lnk = ""
@@ -38,4 +38,4 @@ axios.get('http://ny-rss.herokuapp.com/?action=display&bridge=Facebook&context=U
     console.log('test')
     }, 5000);
 
-}, 86400000); // Every 24 hours
+//}, 86400000); // Every 24 hours
